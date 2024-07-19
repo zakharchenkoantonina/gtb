@@ -1,0 +1,240 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+/*font--------------------------------------------*/
+body{
+	background-color: white;
+}
+section{
+	height: 100vh;
+}
+.header{
+	padding: 3% 0;
+}
+.header a{
+	text-decoration: none;
+	color: rgb(94,97,20);
+}
+.menu a:hover{
+	font-size:24px;
+}
+.logo{
+	font-family: 'Prata', serif;
+	font-size:40px;
+}
+.menu a{
+	font-size: 22px;
+	font-family: 'Dosis', sans-serif;
+	transition: all 0.1s linear;
+}
+.mn1 a{
+	margin-right:12%;
+}
+.mn2 a{
+	margin-left:12%;
+}
+.mn1{
+	margin-left: 30%;
+}
+.mn2{
+	margin-right: 30%;
+}
+/*menu-----------------------------------------------------*/
+.section-1{
+	position: relative;
+	height: 90vh
+}
+
+.section-1 .container {
+	background-image: url("../img/utsman-media-mAr5cJ-K8Iw-unsplash.jpg");
+	height: 60%;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+.thiennhien{
+	color: rgb(94,97,20);
+	font-family: 'Prata', serif;
+	font-size: 88px;
+	position: absolute;
+	top: 43%;
+	left: 15%;
+}
+.thiennhien p{
+	color: white;
+}
+/*section-1-------------------------------------------------------*/
+.section-2 .container{
+	padding-top: 6%;
+}
+
+.content-1{
+	text-align:center;
+	color: rgb(94,97,20);
+	padding: 6% 15% 0 15%;
+}
+.noidung{
+	color: rgb(94,97,20);
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	
+}
+.tieude{
+	font-family: 'Prata', serif;
+	font-size: 40px;
+}
+.img-1 img{
+	width: 100%;
+}
+.img-1{
+	width: 100%;
+}
+/*section-2-------------------------------------------------------*/
+
+.section-3{
+	position: relative;
+	overflow: hidden;
+}
+.section-3 .pic-1{
+	text-align: center;
+	height: 150px;
+	padding-bottom: 10%;
+}
+.section-3 .pic-1 img{
+	width: 100%;
+}
+.hinhanh-2{
+	height: 620px;
+	width: 360px;
+	overflow: hidden;
+	border-radius: 200px;
+	
+}
+.hinhanh-2 img{
+	height: 100%;
+}
+
+.section-3 .content-1 {
+	font-family: 'Dosis', sans-serif;
+	padding: 15%;;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(94,97,20);
+	margin-top:30%;
+	
+}
+.section-3 .content-2{
+	font-family: 'Prata', serif;
+	color: rgb(94,97,20);
+	font-size: 88px;
+	padding-left: 10%;
+}
+
+/*section-3----------------------------------------------------------------*/
+.footer{
+	height: 80vh;
+	padding-top: 6%;
+}
+.footer-c1 a{
+	text-decoration: none;
+	color: rgb(94,97,20);
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-bottom: 5%;
+	transition: all 0.5s linear;
+}
+.footer-c2 a{
+	text-decoration: none;
+	color: rgb(94,97,20);
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-bottom: 2%;
+	padding-top: 3%;
+	text-align: center;
+	transition: all 0.5s linear;
+}
+.footer .p-n{
+	color: rgb(94,97,20);
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+}
+.footer .pic-1{
+	text-align: center;
+	height: 150px;
+}
+.footer .pic-1 img{
+	width: 100%;
+	
+}
+.footer-c1{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50%;
+	padding-top: 10%
+}
+.footer-c2{
+	display: flex;
+	flex-direction: column;
+}
+.footer .logo a{
+	font-family: 'Prata', serif;
+	font-size:40px;
+	color: rgb(94,97,20);
+	text-decoration: none;
+}
+ion-icon{
+	font-size: 30px;
+}
+.footer a:hover{
+	 font-size: 23px;
+}
+.footer .logo a:hover{
+	 font-size: 40px;
+}
+/*footer--------------------------------------------------*/
+/*backtotop---------------------------------------------------*/
+@media screen and (max-width:415px){
+
+/*	nav-mobile--------------------------------*/
+	
+	.container{
+		max-width: 400px;
+	}
+	
+	.footer {
+		text-align: center;
+		padding: 4%;
+	}
+	.footer .logo{
+		text-align: center;
+	}
+	.footer-c1 {
+		padding-left: 0;
+	}
+	.section-3{
+		height: 210vh
+	}
+	.hinhanh-2{
+		margin: 0 auto;
+	}
+	.content-2{
+		margin: 10% 0;
+		padding-left: 5%;
+	}
+	.thiennhien {
+    color: rgb(94,97,20);
+    font-family: 'Prata', serif;
+    font-size: 88px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+	.content-1 {
+    text-align: center;
+    color: rgb(94,97,20);
+   margin-bottom: 10%;
+}
+}
+
